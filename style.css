@@ -1,0 +1,101 @@
+nav{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    background-image: url('images/5fd0577c9fe3b77e7f6c334eea5c462b.jpg'); background-repeat: no-repeat;background-size: cover;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    li{
+        width: 200px;
+
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.loc{
+
+        width: 250px;
+    
+    
+}
+
+.dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    
+    img {
+        width: 200px;
+        height: 350px;
+    }
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.men{
+    width: 500px;
+}
+
+body {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    nav{
+        padding-left: 0;
+
+    }
+    
+  }
